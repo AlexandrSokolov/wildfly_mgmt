@@ -38,3 +38,6 @@ curl -i -X GET -w "\n" http://localhost:8080/demo/rest/service
 3. Highlight, which ports can/should be exposed
 4. Run WildFly in `standalone-full` mode, with `standalone-full.xml` configuration
 5. Enable debugging in `bin/standalone.conf` via `-agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n`
+
+Note: if you want to suspend deployment until you connect with your debugger, set `suspend=y` in `bin/standalone.conf` as:
+`-agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=y`
