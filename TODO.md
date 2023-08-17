@@ -1,5 +1,7 @@
 ### Logging log4j2 and commands to configure custom handler
 
+### Deploy/undeploy functionality
+
 ### MDB and JEE transaction
 
 [See `MDB`](jee_timeout/TODO.md#mdb)
